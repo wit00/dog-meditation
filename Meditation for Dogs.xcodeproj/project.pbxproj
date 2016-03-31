@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818699FE1CADE4BC008F9625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818699FD1CADE4BC008F9625 /* AppDelegate.swift */; };
+		81869A011CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 818699FF1CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld */; };
+		81869A031CADE4BC008F9625 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A021CADE4BC008F9625 /* MasterViewController.swift */; };
+		81869A051CADE4BC008F9625 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A041CADE4BC008F9625 /* DetailViewController.swift */; };
+		81869A081CADE4BC008F9625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81869A061CADE4BC008F9625 /* Main.storyboard */; };
+		81869A0A1CADE4BC008F9625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81869A091CADE4BC008F9625 /* Assets.xcassets */; };
+		81869A0D1CADE4BC008F9625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81869A0B1CADE4BC008F9625 /* LaunchScreen.storyboard */; };
+		81869A181CADE4BC008F9625 /* Meditation_for_DogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A171CADE4BC008F9625 /* Meditation_for_DogsTests.swift */; };
+		81869A231CADE4BD008F9625 /* Meditation_for_DogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A221CADE4BD008F9625 /* Meditation_for_DogsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81869A141CADE4BC008F9625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818699F21CADE4BC008F9625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818699F91CADE4BC008F9625;
+			remoteInfo = "Meditation for Dogs";
+		};
+		81869A1F1CADE4BD008F9625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818699F21CADE4BC008F9625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818699F91CADE4BC008F9625;
+			remoteInfo = "Meditation for Dogs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		818699FA1CADE4BC008F9625 /* Meditation for Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meditation for Dogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		818699FD1CADE4BC008F9625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81869A001CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meditation_for_Dogs.xcdatamodel; sourceTree = "<group>"; };
+		81869A021CADE4BC008F9625 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		81869A041CADE4BC008F9625 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		81869A071CADE4BC008F9625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81869A091CADE4BC008F9625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81869A0C1CADE4BC008F9625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81869A0E1CADE4BC008F9625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81869A131CADE4BC008F9625 /* Meditation for DogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditation for DogsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81869A171CADE4BC008F9625 /* Meditation_for_DogsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_for_DogsTests.swift; sourceTree = "<group>"; };
+		81869A191CADE4BD008F9625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81869A1E1CADE4BD008F9625 /* Meditation for DogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditation for DogsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81869A221CADE4BD008F9625 /* Meditation_for_DogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_for_DogsUITests.swift; sourceTree = "<group>"; };
+		81869A241CADE4BD008F9625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818699F71CADE4BC008F9625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81869A101CADE4BC008F9625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81869A1B1CADE4BD008F9625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818699F11CADE4BC008F9625 = {
+			isa = PBXGroup;
+			children = (
+				818699FC1CADE4BC008F9625 /* Meditation for Dogs */,
+				81869A161CADE4BC008F9625 /* Meditation for DogsTests */,
+				81869A211CADE4BD008F9625 /* Meditation for DogsUITests */,
+				818699FB1CADE4BC008F9625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818699FB1CADE4BC008F9625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818699FA1CADE4BC008F9625 /* Meditation for Dogs.app */,
+				81869A131CADE4BC008F9625 /* Meditation for DogsTests.xctest */,
+				81869A1E1CADE4BD008F9625 /* Meditation for DogsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818699FC1CADE4BC008F9625 /* Meditation for Dogs */ = {
+			isa = PBXGroup;
+			children = (
+				818699FD1CADE4BC008F9625 /* AppDelegate.swift */,
+				81869A021CADE4BC008F9625 /* MasterViewController.swift */,
+				81869A041CADE4BC008F9625 /* DetailViewController.swift */,
+				81869A061CADE4BC008F9625 /* Main.storyboard */,
+				81869A091CADE4BC008F9625 /* Assets.xcassets */,
+				81869A0B1CADE4BC008F9625 /* LaunchScreen.storyboard */,
+				81869A0E1CADE4BC008F9625 /* Info.plist */,
+				818699FF1CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld */,
+			);
+			path = "Meditation for Dogs";
+			sourceTree = "<group>";
+		};
+		81869A161CADE4BC008F9625 /* Meditation for DogsTests */ = {
+			isa = PBXGroup;
+			children = (
+				81869A171CADE4BC008F9625 /* Meditation_for_DogsTests.swift */,
+				81869A191CADE4BD008F9625 /* Info.plist */,
+			);
+			path = "Meditation for DogsTests";
+			sourceTree = "<group>";
+		};
+		81869A211CADE4BD008F9625 /* Meditation for DogsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81869A221CADE4BD008F9625 /* Meditation_for_DogsUITests.swift */,
+				81869A241CADE4BD008F9625 /* Info.plist */,
+			);
+			path = "Meditation for DogsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818699F91CADE4BC008F9625 /* Meditation for Dogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81869A271CADE4BD008F9625 /* Build configuration list for PBXNativeTarget "Meditation for Dogs" */;
+			buildPhases = (
+				818699F61CADE4BC008F9625 /* Sources */,
+				818699F71CADE4BC008F9625 /* Frameworks */,
+				818699F81CADE4BC008F9625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meditation for Dogs";
+			productName = "Meditation for Dogs";
+			productReference = 818699FA1CADE4BC008F9625 /* Meditation for Dogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81869A121CADE4BC008F9625 /* Meditation for DogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81869A2A1CADE4BD008F9625 /* Build configuration list for PBXNativeTarget "Meditation for DogsTests" */;
+			buildPhases = (
+				81869A0F1CADE4BC008F9625 /* Sources */,
+				81869A101CADE4BC008F9625 /* Frameworks */,
+				81869A111CADE4BC008F9625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81869A151CADE4BC008F9625 /* PBXTargetDependency */,
+			);
+			name = "Meditation for DogsTests";
+			productName = "Meditation for DogsTests";
+			productReference = 81869A131CADE4BC008F9625 /* Meditation for DogsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81869A1D1CADE4BD008F9625 /* Meditation for DogsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81869A2D1CADE4BD008F9625 /* Build configuration list for PBXNativeTarget "Meditation for DogsUITests" */;
+			buildPhases = (
+				81869A1A1CADE4BD008F9625 /* Sources */,
+				81869A1B1CADE4BD008F9625 /* Frameworks */,
+				81869A1C1CADE4BD008F9625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81869A201CADE4BD008F9625 /* PBXTargetDependency */,
+			);
+			name = "Meditation for DogsUITests";
+			productName = "Meditation for DogsUITests";
+			productReference = 81869A1E1CADE4BD008F9625 /* Meditation for DogsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818699F21CADE4BC008F9625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Whitney Powell";
+				TargetAttributes = {
+					818699F91CADE4BC008F9625 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					81869A121CADE4BC008F9625 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 818699F91CADE4BC008F9625;
+					};
+					81869A1D1CADE4BD008F9625 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 818699F91CADE4BC008F9625;
+					};
+				};
+			};
+			buildConfigurationList = 818699F51CADE4BC008F9625 /* Build configuration list for PBXProject "Meditation for Dogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818699F11CADE4BC008F9625;
+			productRefGroup = 818699FB1CADE4BC008F9625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818699F91CADE4BC008F9625 /* Meditation for Dogs */,
+				81869A121CADE4BC008F9625 /* Meditation for DogsTests */,
+				81869A1D1CADE4BD008F9625 /* Meditation for DogsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818699F81CADE4BC008F9625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81869A0D1CADE4BC008F9625 /* LaunchScreen.storyboard in Resources */,
+				81869A0A1CADE4BC008F9625 /* Assets.xcassets in Resources */,
+				81869A081CADE4BC008F9625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81869A111CADE4BC008F9625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81869A1C1CADE4BD008F9625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818699F61CADE4BC008F9625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81869A011CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld in Sources */,
+				818699FE1CADE4BC008F9625 /* AppDelegate.swift in Sources */,
+				81869A031CADE4BC008F9625 /* MasterViewController.swift in Sources */,
+				81869A051CADE4BC008F9625 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81869A0F1CADE4BC008F9625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81869A181CADE4BC008F9625 /* Meditation_for_DogsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81869A1A1CADE4BD008F9625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81869A231CADE4BD008F9625 /* Meditation_for_DogsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81869A151CADE4BC008F9625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818699F91CADE4BC008F9625 /* Meditation for Dogs */;
+			targetProxy = 81869A141CADE4BC008F9625 /* PBXContainerItemProxy */;
+		};
+		81869A201CADE4BD008F9625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818699F91CADE4BC008F9625 /* Meditation for Dogs */;
+			targetProxy = 81869A1F1CADE4BD008F9625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81869A061CADE4BC008F9625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81869A071CADE4BC008F9625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81869A0B1CADE4BC008F9625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81869A0C1CADE4BC008F9625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81869A251CADE4BD008F9625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81869A261CADE4BD008F9625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81869A281CADE4BD008F9625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meditation for Dogs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.witapps.Meditation-for-Dogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81869A291CADE4BD008F9625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meditation for Dogs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.witapps.Meditation-for-Dogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81869A2B1CADE4BD008F9625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Meditation for DogsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.witapps.Meditation-for-DogsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditation for Dogs.app/Meditation for Dogs";
+			};
+			name = Debug;
+		};
+		81869A2C1CADE4BD008F9625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Meditation for DogsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.witapps.Meditation-for-DogsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditation for Dogs.app/Meditation for Dogs";
+			};
+			name = Release;
+		};
+		81869A2E1CADE4BD008F9625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Meditation for DogsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.witapps.Meditation-for-DogsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Meditation for Dogs";
+			};
+			name = Debug;
+		};
+		81869A2F1CADE4BD008F9625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Meditation for DogsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.witapps.Meditation-for-DogsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Meditation for Dogs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818699F51CADE4BC008F9625 /* Build configuration list for PBXProject "Meditation for Dogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81869A251CADE4BD008F9625 /* Debug */,
+				81869A261CADE4BD008F9625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81869A271CADE4BD008F9625 /* Build configuration list for PBXNativeTarget "Meditation for Dogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81869A281CADE4BD008F9625 /* Debug */,
+				81869A291CADE4BD008F9625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81869A2A1CADE4BD008F9625 /* Build configuration list for PBXNativeTarget "Meditation for DogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81869A2B1CADE4BD008F9625 /* Debug */,
+				81869A2C1CADE4BD008F9625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81869A2D1CADE4BD008F9625 /* Build configuration list for PBXNativeTarget "Meditation for DogsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81869A2E1CADE4BD008F9625 /* Debug */,
+				81869A2F1CADE4BD008F9625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		818699FF1CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81869A001CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodel */,
+			);
+			currentVersion = 81869A001CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodel */;
+			path = Meditation_for_Dogs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 818699F21CADE4BC008F9625 /* Project object */;
+}
