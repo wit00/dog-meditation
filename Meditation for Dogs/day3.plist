@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tasks</key>
+	<array>
+		<string>sit for 10 seconds</string>
+		<string>sit for 15 seconds</string>
+		<string>sit while you take 2 steps backward and return</string>
+		<string>sit while you jog 5 steps backward and return</string>
+		<string>sit while you walk halfway around the dog to the right and return</string>
+		<string>sit while you walk halfway around the dog to the left and return</string>
+		<string>sit while you take 10 steps backward and return</string>
+		<string>sit for 15 seconds</string>
+		<string>sit while you take 10 steps to the left and return</string>
+		<string>sit while you take 10 steps to the right and return</string>
+		<string>sit for 20 seconds</string>
+		<string>sit while you walk halfway around the dog to the right, clapping your hands, and return</string>
+		<string>sit for 20 seconds</string>
+		<string>sit while you walk halfway around the dog to the left, clapping your hands, and return</string>
+		<string>sit for 10 seconds</string>
+		<string>sit while you jog 10 steps to the right and return</string>
+		<string>sit while you jog 10 steps to the left and return</string>
+		<string>sit while you jog in place for 10 seconds</string>
+		<string>sit for 15 seconds</string>
+		<string>sit while you jog in place for 20 seconds</string>
+		<string>sit for 10 seconds</string>
+		<string>sit while you jog backward 5 steps and return</string>
+		<string>sit while you jog to the right 5 steps and return</string>
+		<string>sit while you jog to the left 5 steps and return</string>
+		<string>sit for 5 seconds while you clap your hands</string>
+		<string>sit for 10 seconds while you clap your hands</string>
+		<string>sit for 10 seconds</string>
+		<string>sit for 5 seconds</string>
+	</array>
+</dict>
+</plist>

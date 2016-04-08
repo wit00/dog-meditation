@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tasks</key>
+	<array>
+		<string>sit for 10 seconds</string>
+		<string>sit for 20 seconds while you jog back and forth in front of the dog</string>
+		<string>sit for 15 seconds</string>
+		<string>sit while you walk approximately 20 steps to an entrance and return</string>
+		<string>sit while you walk quickly backward, clapping your hands, and return</string>
+		<string>sit while you go to an entrance and just touch the doorknob or wall and return</string>
+		<string>sit for 20 seconds will jogging</string>
+		<string>sit while you walk around the dog</string>
+		<string>sit while you walk around the dog, clapping your hands</string>
+		<string>sit for 15 seconds</string>
+		<string>sit for 20 seconds</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you walk quickly backward, clapping your hands, and return</string>
+		<string>sit while you go to an entrance and just touch the doorknob or wall and return</string>
+		<string>sit while you open the door or go into the entranceway for 5 seconds and return</string>
+		<string>sit while you open the door or go into the entranceway for 10 seconds and return</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you walk quickly backward, clapping your hands, and return</string>
+		<string>sit while you go to an entrance, and just touch the doorknor or wall and return</string>
+		<string>sit for 10 seconds</string>
+		<string>sit while you go through the door or the entranceway and return</string>
+		<string>sit while you go through the door or the entranceway, clapping your hands, and return</string>
+		<string>sit while you open the door or go through the entranceway for 10 seconds and return</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you disappear from view for 5 seconds and return</string>
+		<string>sit for 20 seconds</string>
+		<string>sit for 10 seconds while you clap your hands</string>
+		<string>sit for 5 seconds</string>
+	</array>
+</dict>
+</plist>

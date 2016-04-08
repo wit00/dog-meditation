@@ -9,13 +9,29 @@
 /* Begin PBXBuildFile section */
 		818699FE1CADE4BC008F9625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818699FD1CADE4BC008F9625 /* AppDelegate.swift */; };
 		81869A011CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 818699FF1CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld */; };
-		81869A031CADE4BC008F9625 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A021CADE4BC008F9625 /* MasterViewController.swift */; };
-		81869A051CADE4BC008F9625 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A041CADE4BC008F9625 /* DetailViewController.swift */; };
+		81869A051CADE4BC008F9625 /* DogTaskUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A041CADE4BC008F9625 /* DogTaskUIViewController.swift */; };
 		81869A081CADE4BC008F9625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81869A061CADE4BC008F9625 /* Main.storyboard */; };
 		81869A0A1CADE4BC008F9625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81869A091CADE4BC008F9625 /* Assets.xcassets */; };
 		81869A0D1CADE4BC008F9625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81869A0B1CADE4BC008F9625 /* LaunchScreen.storyboard */; };
 		81869A181CADE4BC008F9625 /* Meditation_for_DogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A171CADE4BC008F9625 /* Meditation_for_DogsTests.swift */; };
 		81869A231CADE4BD008F9625 /* Meditation_for_DogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A221CADE4BD008F9625 /* Meditation_for_DogsUITests.swift */; };
+		81869A331CB2E398008F9625 /* DogTaskUIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A321CB2E398008F9625 /* DogTaskUIPageViewController.swift */; };
+		81869A731CB4319E008F9625 /* DogTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A721CB4319E008F9625 /* DogTaskModel.swift */; };
+		81869A761CB431DA008F9625 /* day1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A751CB431DA008F9625 /* day1.plist */; };
+		81869A781CB6B3EB008F9625 /* day2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A771CB6B3EB008F9625 /* day2.plist */; };
+		81869A7A1CB6B3F4008F9625 /* day3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A791CB6B3F4008F9625 /* day3.plist */; };
+		81869A7C1CB6B40D008F9625 /* day4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A7B1CB6B40D008F9625 /* day4.plist */; };
+		81869A7E1CB6B411008F9625 /* day5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A7D1CB6B411008F9625 /* day5.plist */; };
+		81869A801CB6B416008F9625 /* day6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A7F1CB6B416008F9625 /* day6.plist */; };
+		81869A821CB6B41B008F9625 /* day7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A811CB6B41B008F9625 /* day7.plist */; };
+		81869A841CB6B421008F9625 /* day8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A831CB6B421008F9625 /* day8.plist */; };
+		81869A861CB6B427008F9625 /* day9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A851CB6B427008F9625 /* day9.plist */; };
+		81869A881CB6B42D008F9625 /* day10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A871CB6B42D008F9625 /* day10.plist */; };
+		81869A8A1CB6B432008F9625 /* day11.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A891CB6B432008F9625 /* day11.plist */; };
+		81869A8C1CB6B43A008F9625 /* day12.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A8B1CB6B43A008F9625 /* day12.plist */; };
+		81869A8E1CB6B440008F9625 /* day13.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A8D1CB6B440008F9625 /* day13.plist */; };
+		81869A901CB6B445008F9625 /* day14.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A8F1CB6B445008F9625 /* day14.plist */; };
+		81869A921CB6B44C008F9625 /* day15.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A911CB6B44C008F9625 /* day15.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +55,7 @@
 		818699FA1CADE4BC008F9625 /* Meditation for Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meditation for Dogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		818699FD1CADE4BC008F9625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81869A001CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meditation_for_Dogs.xcdatamodel; sourceTree = "<group>"; };
-		81869A021CADE4BC008F9625 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		81869A041CADE4BC008F9625 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		81869A041CADE4BC008F9625 /* DogTaskUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTaskUIViewController.swift; sourceTree = "<group>"; };
 		81869A071CADE4BC008F9625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81869A091CADE4BC008F9625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81869A0C1CADE4BC008F9625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,23 @@
 		81869A1E1CADE4BD008F9625 /* Meditation for DogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditation for DogsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81869A221CADE4BD008F9625 /* Meditation_for_DogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_for_DogsUITests.swift; sourceTree = "<group>"; };
 		81869A241CADE4BD008F9625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81869A321CB2E398008F9625 /* DogTaskUIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTaskUIPageViewController.swift; sourceTree = "<group>"; };
+		81869A721CB4319E008F9625 /* DogTaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTaskModel.swift; sourceTree = "<group>"; };
+		81869A751CB431DA008F9625 /* day1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day1.plist; sourceTree = "<group>"; };
+		81869A771CB6B3EB008F9625 /* day2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day2.plist; sourceTree = "<group>"; };
+		81869A791CB6B3F4008F9625 /* day3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day3.plist; sourceTree = "<group>"; };
+		81869A7B1CB6B40D008F9625 /* day4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day4.plist; sourceTree = "<group>"; };
+		81869A7D1CB6B411008F9625 /* day5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day5.plist; sourceTree = "<group>"; };
+		81869A7F1CB6B416008F9625 /* day6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day6.plist; sourceTree = "<group>"; };
+		81869A811CB6B41B008F9625 /* day7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day7.plist; sourceTree = "<group>"; };
+		81869A831CB6B421008F9625 /* day8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day8.plist; sourceTree = "<group>"; };
+		81869A851CB6B427008F9625 /* day9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day9.plist; sourceTree = "<group>"; };
+		81869A871CB6B42D008F9625 /* day10.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day10.plist; sourceTree = "<group>"; };
+		81869A891CB6B432008F9625 /* day11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day11.plist; sourceTree = "<group>"; };
+		81869A8B1CB6B43A008F9625 /* day12.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day12.plist; sourceTree = "<group>"; };
+		81869A8D1CB6B440008F9625 /* day13.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day13.plist; sourceTree = "<group>"; };
+		81869A8F1CB6B445008F9625 /* day14.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day14.plist; sourceTree = "<group>"; };
+		81869A911CB6B44C008F9625 /* day15.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day15.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +133,11 @@
 		818699FC1CADE4BC008F9625 /* Meditation for Dogs */ = {
 			isa = PBXGroup;
 			children = (
+				81869A741CB431B6008F9625 /* Dog's Tasks */,
 				818699FD1CADE4BC008F9625 /* AppDelegate.swift */,
-				81869A021CADE4BC008F9625 /* MasterViewController.swift */,
-				81869A041CADE4BC008F9625 /* DetailViewController.swift */,
+				81869A041CADE4BC008F9625 /* DogTaskUIViewController.swift */,
+				81869A321CB2E398008F9625 /* DogTaskUIPageViewController.swift */,
+				81869A721CB4319E008F9625 /* DogTaskModel.swift */,
 				81869A061CADE4BC008F9625 /* Main.storyboard */,
 				81869A091CADE4BC008F9625 /* Assets.xcassets */,
 				81869A0B1CADE4BC008F9625 /* LaunchScreen.storyboard */,
@@ -129,6 +163,28 @@
 				81869A241CADE4BD008F9625 /* Info.plist */,
 			);
 			path = "Meditation for DogsUITests";
+			sourceTree = "<group>";
+		};
+		81869A741CB431B6008F9625 /* Dog's Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				81869A751CB431DA008F9625 /* day1.plist */,
+				81869A771CB6B3EB008F9625 /* day2.plist */,
+				81869A791CB6B3F4008F9625 /* day3.plist */,
+				81869A7B1CB6B40D008F9625 /* day4.plist */,
+				81869A7D1CB6B411008F9625 /* day5.plist */,
+				81869A7F1CB6B416008F9625 /* day6.plist */,
+				81869A811CB6B41B008F9625 /* day7.plist */,
+				81869A831CB6B421008F9625 /* day8.plist */,
+				81869A851CB6B427008F9625 /* day9.plist */,
+				81869A871CB6B42D008F9625 /* day10.plist */,
+				81869A891CB6B432008F9625 /* day11.plist */,
+				81869A8B1CB6B43A008F9625 /* day12.plist */,
+				81869A8D1CB6B440008F9625 /* day13.plist */,
+				81869A8F1CB6B445008F9625 /* day14.plist */,
+				81869A911CB6B44C008F9625 /* day15.plist */,
+			);
+			name = "Dog's Tasks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +293,22 @@
 			files = (
 				81869A0D1CADE4BC008F9625 /* LaunchScreen.storyboard in Resources */,
 				81869A0A1CADE4BC008F9625 /* Assets.xcassets in Resources */,
+				81869A841CB6B421008F9625 /* day8.plist in Resources */,
+				81869A861CB6B427008F9625 /* day9.plist in Resources */,
+				81869A7C1CB6B40D008F9625 /* day4.plist in Resources */,
+				81869A901CB6B445008F9625 /* day14.plist in Resources */,
+				81869A821CB6B41B008F9625 /* day7.plist in Resources */,
 				81869A081CADE4BC008F9625 /* Main.storyboard in Resources */,
+				81869A8E1CB6B440008F9625 /* day13.plist in Resources */,
+				81869A881CB6B42D008F9625 /* day10.plist in Resources */,
+				81869A7A1CB6B3F4008F9625 /* day3.plist in Resources */,
+				81869A921CB6B44C008F9625 /* day15.plist in Resources */,
+				81869A8A1CB6B432008F9625 /* day11.plist in Resources */,
+				81869A781CB6B3EB008F9625 /* day2.plist in Resources */,
+				81869A8C1CB6B43A008F9625 /* day12.plist in Resources */,
+				81869A801CB6B416008F9625 /* day6.plist in Resources */,
+				81869A761CB431DA008F9625 /* day1.plist in Resources */,
+				81869A7E1CB6B411008F9625 /* day5.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +334,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81869A011CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld in Sources */,
+				81869A731CB4319E008F9625 /* DogTaskModel.swift in Sources */,
 				818699FE1CADE4BC008F9625 /* AppDelegate.swift in Sources */,
-				81869A031CADE4BC008F9625 /* MasterViewController.swift in Sources */,
-				81869A051CADE4BC008F9625 /* DetailViewController.swift in Sources */,
+				81869A331CB2E398008F9625 /* DogTaskUIPageViewController.swift in Sources */,
+				81869A051CADE4BC008F9625 /* DogTaskUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,24 +8,26 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
-
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+class DogTaskUIViewController: UIViewController {
 
 
-    var detailItem: AnyObject? {
-        didSet {
-            // Update the view.
-            self.configureView()
-        }
-    }
+    @IBOutlet weak var dogTaskLabel: UILabel!
+    @IBOutlet weak var taskNumberLabel: UILabel!
+
+
+    var task: String?
+    var taskNumber: Int?
+    var tasks: Int?
 
     func configureView() {
-        // Update the user interface for the detail item.
-        if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.valueForKey("timeStamp")!.description
+        if let task = self.task {
+            if let label = self.dogTaskLabel {
+                label.text = task
             }
+        }
+        if let taskNumber = self.taskNumber, let label = self.taskNumberLabel, let totalTasks = self.tasks {
+            //print("here")
+            label.text = "\(taskNumber + 1)/\(totalTasks)"
         }
     }
 
