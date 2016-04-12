@@ -32,6 +32,10 @@
 		81869A8E1CB6B440008F9625 /* day13.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A8D1CB6B440008F9625 /* day13.plist */; };
 		81869A901CB6B445008F9625 /* day14.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A8F1CB6B445008F9625 /* day14.plist */; };
 		81869A921CB6B44C008F9625 /* day15.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81869A911CB6B44C008F9625 /* day15.plist */; };
+		81869A941CBBE09D008F9625 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A931CBBE09D008F9625 /* ClickerViewController.swift */; };
+		81869A991CBBEEDF008F9625 /* clickerClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81869A981CBBEEDF008F9625 /* clickerClick.wav */; };
+		81869A9B1CBBF829008F9625 /* soundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A9A1CBBF829008F9625 /* soundHelper.swift */; };
+		81869A9D1CBC0F29008F9625 /* ProtocolForRelaxationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81869A9C1CBC0F29008F9625 /* ProtocolForRelaxationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,10 @@
 		81869A8D1CB6B440008F9625 /* day13.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day13.plist; sourceTree = "<group>"; };
 		81869A8F1CB6B445008F9625 /* day14.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day14.plist; sourceTree = "<group>"; };
 		81869A911CB6B44C008F9625 /* day15.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day15.plist; sourceTree = "<group>"; };
+		81869A931CBBE09D008F9625 /* ClickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
+		81869A981CBBEEDF008F9625 /* clickerClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clickerClick.wav; sourceTree = "<group>"; };
+		81869A9A1CBBF829008F9625 /* soundHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soundHelper.swift; sourceTree = "<group>"; };
+		81869A9C1CBC0F29008F9625 /* ProtocolForRelaxationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolForRelaxationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,7 @@
 		818699FC1CADE4BC008F9625 /* Meditation for Dogs */ = {
 			isa = PBXGroup;
 			children = (
+				81869A951CBBEB05008F9625 /* sounds */,
 				81869A741CB431B6008F9625 /* Dog's Tasks */,
 				818699FD1CADE4BC008F9625 /* AppDelegate.swift */,
 				81869A041CADE4BC008F9625 /* DogTaskUIViewController.swift */,
@@ -143,6 +152,9 @@
 				81869A0B1CADE4BC008F9625 /* LaunchScreen.storyboard */,
 				81869A0E1CADE4BC008F9625 /* Info.plist */,
 				818699FF1CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld */,
+				81869A931CBBE09D008F9625 /* ClickerViewController.swift */,
+				81869A9A1CBBF829008F9625 /* soundHelper.swift */,
+				81869A9C1CBC0F29008F9625 /* ProtocolForRelaxationTableViewController.swift */,
 			);
 			path = "Meditation for Dogs";
 			sourceTree = "<group>";
@@ -185,6 +197,14 @@
 				81869A911CB6B44C008F9625 /* day15.plist */,
 			);
 			name = "Dog's Tasks";
+			sourceTree = "<group>";
+		};
+		81869A951CBBEB05008F9625 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				81869A981CBBEEDF008F9625 /* clickerClick.wav */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +319,7 @@
 				81869A901CB6B445008F9625 /* day14.plist in Resources */,
 				81869A821CB6B41B008F9625 /* day7.plist in Resources */,
 				81869A081CADE4BC008F9625 /* Main.storyboard in Resources */,
+				81869A991CBBEEDF008F9625 /* clickerClick.wav in Resources */,
 				81869A8E1CB6B440008F9625 /* day13.plist in Resources */,
 				81869A881CB6B42D008F9625 /* day10.plist in Resources */,
 				81869A7A1CB6B3F4008F9625 /* day3.plist in Resources */,
@@ -333,10 +354,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81869A9D1CBC0F29008F9625 /* ProtocolForRelaxationTableViewController.swift in Sources */,
 				81869A011CADE4BC008F9625 /* Meditation_for_Dogs.xcdatamodeld in Sources */,
 				81869A731CB4319E008F9625 /* DogTaskModel.swift in Sources */,
 				818699FE1CADE4BC008F9625 /* AppDelegate.swift in Sources */,
+				81869A9B1CBBF829008F9625 /* soundHelper.swift in Sources */,
 				81869A331CB2E398008F9625 /* DogTaskUIPageViewController.swift in Sources */,
+				81869A941CBBE09D008F9625 /* ClickerViewController.swift in Sources */,
 				81869A051CADE4BC008F9625 /* DogTaskUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

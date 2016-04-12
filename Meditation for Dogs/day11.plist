@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   day11.plist
-   Meditation for Dogs
-
-   Created by Whitney Powell on 4/7/16.
-   Copyright (c) 2016 Whitney Powell. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>tasks</key>
+	<array>
+		<string>sit for 5 seconds</string>
+		<string>sit for 10 seconds</string>
+		<string>sit while you disappear from view, knock quickly but softly on the wall, and return</string>
+		<string>sit for 5 seconds</string>
+		<string>sit while you disappear from view for 10 seconds, knock softly on the wall, and return</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you disappear from view, ring the doorbell, and immediately return</string>
+		<string>sit while you disappear from view, ring the doorbell, wait 2 seconds, and return</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you disappear from view, ring the doorbell, and immediately return</string>
+		<string>sit while you disappear from view, ring the doorbell, wait 5 seconds, and return</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you disappear from view, ring the doorbell, and immediately return</string>
+		<string>sit while you disappear from view, ring the doorbell, wait 10 seconds, and return</string>
+		<string>sit for 5 seconds while you jog around the dog</string>
+		<string>sit while you walk around the dog</string>
+		<string>sit while you jog around the dog</string>
+		<string>sit while you jog around the dog, clapping your hands</string>
+		<string>sit while you jog twice around the dog</string>
+		<string>sit for 10 seconds</string>
+		<string>sit for 15 seconds while you clap your hands</string>
+		<string>sit for 20 seconds</string>
+		<string>sit while you move 3/4 of the way around the dog to the right and return</string>
+		<string>sit while you move 3/4 of the way around the dog to the left and return</string>
+		<string>sit while you disappear from view for 10 seconds and return</string>
+		<string>sit while you circle the dog and return</string>
+		<string>sit for 10 seconds</string>
+		<string>sit for 5 seconds</string>
+	</array>
+</dict>
 </plist>

@@ -43,6 +43,7 @@ class DogTaskModel:NSObject, UIPageViewControllerDataSource {
         dogTaskUIViewController.task = todaysTasks[nextTask]
         dogTaskUIViewController.taskNumber = nextTask
         dogTaskUIViewController.tasks = todaysTasks.count
+        dogTaskUIViewController.day = day
         return dogTaskUIViewController
     }
     
@@ -52,6 +53,7 @@ class DogTaskModel:NSObject, UIPageViewControllerDataSource {
         dogTaskUIViewController.task = thatDaysTasks[aTask]
         dogTaskUIViewController.taskNumber = aTask
         dogTaskUIViewController.tasks = thatDaysTasks.count
+        dogTaskUIViewController.day = aDay
         return dogTaskUIViewController
     }
     

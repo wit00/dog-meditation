@@ -9,16 +9,21 @@
 import UIKit
 
 class DogTaskUIPageViewController:UIViewController, UIPageViewControllerDelegate {
+    var currentTask = 0 {
+        didSet {
+            dogTaskModelController.currentTask = self.currentTask
+        }
+    }
     var day:Int = 1 {
         didSet {
             dogTaskModelController.day = self.day
         }
     }
     
-    @IBAction func refreshTasks(sender: UIBarButtonItem) {
-        dogTaskModelController.currentTask = 0
-        loadStartingViewController(1,aTask:0)
-    }
+//    @IBAction func refreshTasks(sender: UIBarButtonItem) {
+//        dogTaskModelController.currentTask = 0
+//        loadStartingViewController(1,aTask:0)
+//    }
     var dogTaskPageViewController: UIPageViewController?
     var dogTaskModelController:DogTaskModel {
         if _dogTaskModelController == nil {
@@ -39,7 +44,7 @@ class DogTaskUIPageViewController:UIViewController, UIPageViewControllerDelegate
         dogTaskPageViewController = self.storyboard!.instantiateViewControllerWithIdentifier("dog task page view controller") as? UIPageViewController
         self.dogTaskPageViewController?.delegate = self
         //MARK - fix this to start where you left off
-        loadStartingViewController(1,aTask:0)
+        loadStartingViewController(day,aTask:currentTask)
         self.dogTaskPageViewController?.dataSource = self.dogTaskModelController
 
         self.addChildViewController(self.dogTaskPageViewController!)

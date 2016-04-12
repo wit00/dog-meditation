@@ -11,6 +11,8 @@ import UIKit
 class DogTaskUIViewController: UIViewController {
 
 
+    @IBOutlet weak var swipeImage: UIImageView!
+    @IBOutlet weak var swipeLabel: UILabel!
     @IBOutlet weak var dogTaskLabel: UILabel!
     @IBOutlet weak var taskNumberLabel: UILabel!
 
@@ -18,6 +20,7 @@ class DogTaskUIViewController: UIViewController {
     var task: String?
     var taskNumber: Int?
     var tasks: Int?
+    var day: Int?
 
     func configureView() {
         if let task = self.task {
@@ -26,8 +29,22 @@ class DogTaskUIViewController: UIViewController {
             }
         }
         if let taskNumber = self.taskNumber, let label = self.taskNumberLabel, let totalTasks = self.tasks {
-            //print("here")
             label.text = "\(taskNumber + 1)/\(totalTasks)"
+        }
+        if taskNumber > 0 {
+            swipeImage.alpha = 0.2
+            swipeLabel.alpha = 0.2
+        }
+        
+
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        let standardUserDefaults = NSUserDefaults.standardUserDefaults()
+        if taskNumber > 0 && taskNumber != nil && day != nil {
+            print("\(taskNumber)")
+            standardUserDefaults.setObject(taskNumber!, forKey: "lastTask")
+            standardUserDefaults.setObject(day!, forKey: "lastDay")
         }
     }
 

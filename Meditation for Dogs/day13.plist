@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   day13.plist
-   Meditation for Dogs
-
-   Created by Whitney Powell on 4/7/16.
-   Copyright (c) 2016 Whitney Powell. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>tasks</key>
+	<array>
+		<string>sit for 5 seconds</string>
+		<string>sit for 15 seconds while you hum</string>
+		<string>sit for 15 seconds while you clap your hands and hum</string>
+		<string>sit while you disappear from view for 20 seconds and return</string>
+		<string>sit while you disappear from view for 25 seconds and return</string>
+		<string>sit for 5 seconds while you sit in a chair near the dog</string>
+		<string>sit while you disappear from view for 10 seconds, sit in a chair for 5 seconds, and return</string>
+		<string>sit for 5 seconds</string>
+		<string>sit for 10 seconds</string>
+		<string>sit while you disappear from view, knock quickly but softly on the wall, and return</string>
+		<string>sit for 5 seconds</string>
+		<string>sit while you disappear from view for 10 seconds, knock softly on the wall, and return</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you disappear from view, ring the doorbell, and immediately return</string>
+		<string>sit while you disappear from view, ring the doorbell, wait 2 seconds, and return</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you disappear from view, say &quot;hello&quot;, wait 5 seconds, and return</string>
+		<string>sit while you disappear from view, knock or ring the doorbell, say &quot;hello,&quot; wait 5 seconds, and return</string>
+		<string>sit for 30 seconds</string>
+		<string>sit while you disappear from view, say &quot;hello,&quot; wiat 5 seconds, and return</string>
+		<string>sit while you disappear from view, knock or ring the doorbell, say &quot;hello,&quot; wait 5 seconds and return</string>
+		<string>sit for 20 seconds while you hum</string>
+		<string>sit for 15 seconds while you clap your hands</string>
+		<string>sit for 5 seconds</string>
+		<string>sit while you jog around the dog</string>
+		<string>sit for 10 seconds while you clap your hands and hum</string>
+		<string>sit for 5 seconds while you jog in place</string>
+		<string>sit while you jog around the dog, humming</string>
+	</array>
+</dict>
 </plist>
